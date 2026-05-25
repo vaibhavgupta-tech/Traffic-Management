@@ -91,9 +91,9 @@ MongoDB is optional for demos. Without `MONGODB_URI`, the API uses an in-memory 
 
 See [docs/API.md](docs/API.md) for request examples.
 
-## Google Doc Notes
+## Google Doc Markdown Files
 
-The shared Google Doc content has been converted to Markdown at [docs/GOOGLE_DOC_PROJECT_NOTES.md](docs/GOOGLE_DOC_PROJECT_NOTES.md).
+The shared Google Doc content has been split into separate Markdown files at [docs/google-doc-md/README.md](docs/google-doc-md/README.md).
 
 ## Security Notes
 

@@ -1,0 +1,41 @@
+﻿# 7. Environment Matrix Configuration Blueprint (backend/.env.example)
+
+Code snippet
+PORT=5000
+MONGO_URI=mongodb://localhost:27017/dpi-security
+CORS_ORIGIN=http://localhost:5173
+
+
+💻 Frontend UI Architecture & Workspace
+1. Visual Assembly Configuration (frontend/package.json)
+JSON
+{
+  "name": "dpi-frontend",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "lucide-react": "^0.368.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "recharts": "^2.12.5",
+    "socket.io-client": "^4.7.5"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.66",
+    "@types/react-dom": "^18.2.22",
+    "@vitejs/plugin-react": "^4.2.1",
+    "autoprefixer": "^10.4.19",
+    "postcss": "^8.4.38",
+    "tailwindcss": "^3.4.3",
+    "typescript": "^5.2.2",
+    "vite": "^5.2.8"
+  }
+}
+
+
