@@ -1,0 +1,21 @@
+{
+  "name": "dpi-soc-monitor",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Professional Deep Packet Inspection SOC dashboard with real-time packet monitoring, threat detection, and log management.",
+  "scripts": {
+    "dev": "concurrently \"npm run dev --workspace backend\" \"npm run dev --workspace frontend\"",
+    "build": "npm run build --workspace backend && npm run build --workspace frontend",
+    "start": "npm run start --workspace backend",
+    "lint": "npm run lint --workspace frontend",
+    "seed": "npm run seed --workspace backend"
+  },
+  "workspaces": [
+    "backend",
+    "frontend"
+  ],
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}
